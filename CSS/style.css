@@ -58,6 +58,10 @@ header .container img{
     transform: translateX(+2px);
 }
 
+#checkbox-menu{
+    display: none;
+}
+
 /* MAIN */
 
 main{
