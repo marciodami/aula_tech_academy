@@ -32,10 +32,7 @@
 }
 
 @media (max-width: 630px) {
-    nav{
-        display: none;
-    }
-    main .container-menu img{
+       main .container-menu img{
         display: none;
     }
     
