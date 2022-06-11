@@ -8,7 +8,6 @@
 }
 
 html, body {
-    height: 100vh;
     font-family: 'Source Sans Pro', sans-serif , 'Times New Roman', Times, serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -108,10 +107,16 @@ form input{
 form [type="submit"]{
     background-color: yellow;
     color: #6b039c;
+    width: 150px;
+    padding-left: 0 ;
+    font-size: 16px ;
+    height: 40px;
 }
 
 form [type="submit"]:hover{
     cursor: pointer;
+    background-color:rgba(17, 16, 1, 0.5);
+    transform: translateY(-2px);
 }
 
 main .container-main img{
@@ -158,6 +163,7 @@ main .container-main img{
     border-radius: 5px;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
+    height: 225px;
 }
 
 .image img{
